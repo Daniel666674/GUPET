@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GUPET — Todo para tu mascota, bien elegido</title>
-<meta name="description" content="GUPET: alimento, higiene, juguetes y servicios para perros y gatos en Colombia. Marcas premium, catálogo curado y atención por WhatsApp.">
+<meta name="description" content="GUPET: alimento, higiene, juguetes y servicios para perros y gatos en Colombia. Marcas premium, catálogo curado y pago en línea.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +21,10 @@
       </ul>
     </nav>
     <div class="header-actions">
-      <a href="https://wa.me/573157454408" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="carrito.html" class="cart-link" aria-label="Carrito">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-badge">0</span>
+      </a>
       <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -35,12 +38,12 @@
       <p class="lead">Alimento, higiene, juguetes y servicios de marcas premium como Royal Canin, Farmina N&amp;D y Churu — elegidos por gente que también tiene mascota en casa.</p>
       <div class="hero-actions">
         <a href="servicios.html" class="btn btn-primary">Ver catálogo</a>
-        <a href="https://wa.me/573157454408" class="btn btn-outline" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+        <a href="carrito.html" class="btn btn-outline">Ir al carrito</a>
       </div>
       <div class="hero-stats">
         <div><strong>6+</strong><span>marcas premium</span></div>
         <div><strong>Perros y gatos</strong><span>alimento y cuidado</span></div>
-        <div><strong>WhatsApp</strong><span>pedido directo</span></div>
+        <div><strong>Pago en línea</strong><span>checkout simulado</span></div>
       </div>
     </div>
     <div class="hero-media">
@@ -118,7 +121,7 @@
             <span class="price-old">$62.594</span>
           </div>
           <span class="price-unit">Caja x 20 tubos</span>
-          <a class="product-cta" href="https://wa.me/573157454408" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <button type="button" class="product-cta add-to-cart">Agregar al carrito</button>
         </div>
       </div>
 
@@ -134,7 +137,7 @@
             <span class="price-old">$123.600</span>
           </div>
           <span class="price-unit">Presentación única</span>
-          <a class="product-cta" href="https://wa.me/573157454408" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <button type="button" class="product-cta add-to-cart" data-price="113710" data-unit="Presentación única">Agregar al carrito</button>
         </div>
       </div>
 
@@ -145,11 +148,15 @@
         <div class="product-body">
           <span class="product-brand">Farmina N&amp;D</span>
           <h3>Prime Feline Frango Castrado</h3>
-          <div class="price-row">
-            <span class="price">$127.553 – $437.344</span>
+          <div class="weight-select">
+            <button data-price="127553" data-unit="Presentación chica" class="active">Chica</button>
+            <button data-price="437344" data-unit="Presentación grande">Grande</button>
           </div>
-          <span class="price-unit">Según presentación</span>
-          <a class="product-cta" href="https://wa.me/573157454408" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <div class="price-row">
+            <span class="price">$127.553</span>
+          </div>
+          <span class="price-unit">Presentación chica</span>
+          <button type="button" class="product-cta add-to-cart">Agregar al carrito</button>
         </div>
       </div>
 
@@ -160,11 +167,15 @@
         <div class="product-body">
           <span class="product-brand">Agility Gold</span>
           <h3>Pequeños Adultos</h3>
-          <div class="price-row">
-            <span class="price">$38.299 – $159.731</span>
+          <div class="weight-select">
+            <button data-price="38299" data-unit="Presentación chica" class="active">Chica</button>
+            <button data-price="159731" data-unit="Presentación grande">Grande</button>
           </div>
-          <span class="price-unit">Según presentación</span>
-          <a class="product-cta" href="https://wa.me/573157454408" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <div class="price-row">
+            <span class="price">$38.299</span>
+          </div>
+          <span class="price-unit">Presentación chica</span>
+          <button type="button" class="product-cta add-to-cart">Agregar al carrito</button>
         </div>
       </div>
 
@@ -177,8 +188,8 @@
     <div class="offer-banner">
       <div>
         <h3>10% off en Monge, Gattino y Gemon</h3>
-        <p>Válido por tiempo limitado, escribiendo por WhatsApp. No acumulable con otras promociones.</p>
-        <a href="https://wa.me/573157454408" class="btn btn-light" target="_blank" rel="noopener" style="margin-top:18px;">Aprovechar oferta</a>
+        <p>Válido por tiempo limitado, aplicado directo en el carrito. No acumulable con otras promociones.</p>
+        <a href="servicios.html" class="btn btn-light" style="margin-top:18px;">Aprovechar oferta</a>
       </div>
       <div class="offer-pct">10%<span style="font-size:1.1rem; display:block; color:#eafff2; font-family:'Work Sans',sans-serif; font-weight:600;">OFF</span></div>
     </div>
@@ -188,10 +199,10 @@
 <section style="background: var(--white);">
   <div class="container">
     <div class="cta-band">
-      <span class="eyebrow">¿Lista(o) para pedir?</span>
-      <h2>Te asesoramos por WhatsApp en minutos</h2>
-      <p>Cuéntanos qué necesita tu mascota — te recomendamos la marca y presentación correcta.</p>
-      <a href="https://wa.me/573157454408" class="btn btn-primary" target="_blank" rel="noopener">Escríbenos ahora</a>
+      <span class="eyebrow">¿Lista(o) para comprar?</span>
+      <h2>Paga en línea, sin salir del sitio</h2>
+      <p>Agrega tus productos al carrito y completa el pago en un checkout simple, en la misma página.</p>
+      <a href="servicios.html" class="btn btn-primary">Ver catálogo</a>
     </div>
   </div>
 </section>
@@ -209,11 +220,12 @@
           <li><a href="index.html">Inicio</a></li>
           <li><a href="nosotros.html">Nosotros</a></li>
           <li><a href="servicios.html">Catálogo y servicios</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
       </div>
       <div>
-        <h4>Contacto</h4>
+        <h4>Soporte</h4>
         <ul>
           <li><a href="https://wa.me/573157454408" target="_blank" rel="noopener">WhatsApp: 315 745 4408</a></li>
         </ul>
