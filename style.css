@@ -219,20 +219,6 @@ nav.main-nav a.active {
 }
 .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 28px; }
 
-.hero-stats {
-  display: flex;
-  gap: 30px;
-  margin-top: 40px;
-  flex-wrap: wrap;
-}
-.hero-stats div strong {
-  display: block;
-  font-family: 'Baloo 2', sans-serif;
-  font-size: 1.4rem;
-  color: var(--green);
-}
-.hero-stats div span { font-size: .85rem; color: var(--ink-soft); }
-
 .hero-media {
   position: relative;
   border-radius: 28px;
