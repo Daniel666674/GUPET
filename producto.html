@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Producto — GUPET</title>
+<meta name="description" content="Ficha de producto con presentaciones, precio por tamaño, disponibilidad y asesoría por WhatsApp.">
+<meta name="theme-color" content="#459c63">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GUPET">
+<meta property="og:title" content="Producto — GUPET">
+<meta property="og:description" content="Ficha de producto con presentaciones, precio por tamaño, disponibilidad y asesoría por WhatsApp.">
+<meta property="og:image" content="img/hero-puppy.jpg">
+<meta property="og:locale" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="producto">
+
+<div data-site-header></div>
+
+<main id="main">
+
+<div class="container">
+  <nav class="breadcrumb" aria-label="Ruta" data-breadcrumb></nav>
+</div>
+
+<section style="padding-top:34px;">
+  <div class="container">
+    <div class="pdp-layout" data-producto></div>
+  </div>
+</section>
+
+<section style="background: var(--white); padding-top:0;">
+  <div class="container">
+    <div data-pdp-detalle></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">También te puede servir</span>
+      <h2>Otros productos del catálogo</h2>
+    </div>
+    <div class="product-grid" data-relacionados></div>
+  </div>
+</section>
+
+<section style="background: var(--white);">
+  <div class="container" data-vistos>
+    <div class="section-head">
+      <span class="eyebrow">Tu recorrido</span>
+      <h2>Vistos recientemente</h2>
+    </div>
+    <div class="product-grid" data-vistos-grid></div>
+  </div>
+</section>
+</main>
+
+<div data-site-footer></div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

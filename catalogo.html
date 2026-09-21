@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo — GUPET</title>
+<meta name="description" content="Catálogo de alimento y cuidado para perros y gatos: busca por marca, filtra por mascota y ordena por precio. Precio real por presentación.">
+<meta name="theme-color" content="#459c63">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GUPET">
+<meta property="og:title" content="Catálogo — GUPET">
+<meta property="og:description" content="Catálogo de alimento y cuidado para perros y gatos: busca por marca, filtra por mascota y ordena por precio. Precio real por presentación.">
+<meta property="og:image" content="img/hero-puppy.jpg">
+<meta property="og:locale" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="catalogo">
+
+<div data-site-header></div>
+
+<main id="main">
+
+<div class="container">
+  <nav class="breadcrumb" aria-label="Ruta">
+    <a href="index.html">Inicio</a> <span>/</span> <span aria-current="page">Catálogo</span>
+  </nav>
+</div>
+
+<section class="page-hero" style="padding-top:34px;">
+  <div class="container">
+    <span class="eyebrow">Catálogo</span>
+    <h1>Todo el catálogo, con filtros que sirven</h1>
+    <p>Busca por marca o necesidad, filtra por mascota y ordena por precio. El precio de cada presentación se calcula al momento.</p>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="catalog-toolbar">
+      <div class="catalog-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="17" height="17" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+        <label class="sr-only" for="cat-q">Buscar producto</label>
+        <input id="cat-q" type="search" placeholder="Churu, Hill's, sin cereales…" data-cat-buscar>
+      </div>
+      <div class="catalog-tools">
+        <label class="switch"><input type="checkbox" data-cat-oferta> Solo en oferta</label>
+        <label class="sr-only" for="cat-orden">Ordenar por</label>
+        <select id="cat-orden" data-cat-orden>
+          <option value="relevancia">Orden sugerido</option>
+          <option value="precio-asc">Precio: de menor a mayor</option>
+          <option value="precio-desc">Precio: de mayor a menor</option>
+          <option value="rating">Mejor calificados</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="chip-row" data-cat-filtros></div>
+    <p class="result-count" data-cat-contador role="status"></p>
+
+    <div class="product-grid" data-catalogo></div>
+
+    <div class="note-box" style="margin-top:40px;">
+      Esta demo carga una selección del catálogo con precios reales del sitio actual. La tienda completa incluye además Royal Canin, Monge, Orijen, Nupec y Evolve —
+      <a href="contacto.html" style="color:var(--green); text-decoration:underline;">pregúntanos</a> por la línea que necesitas.
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--white); padding-top: 60px;">
+  <div class="container">
+    <div class="cta-band">
+      <span class="eyebrow">¿No lo ves en la lista?</span>
+      <h2>Pregúntanos por cualquier marca</h2>
+      <p>Te confirmamos disponibilidad, presentaciones y precio el mismo día.</p>
+      <a href="https://wa.me/573157454408" class="btn btn-primary" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<div data-site-footer></div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

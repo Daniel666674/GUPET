@@ -3,245 +3,173 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GUPET — Todo para tu mascota, bien elegido</title>
-<meta name="description" content="GUPET: alimento, higiene, juguetes y servicios para perros y gatos en Colombia. Marcas premium, catálogo curado y pago en línea.">
+<title>GUPET — Alimento y cuidado para perros y gatos</title>
+<meta name="description" content="Tienda en línea de alimento, higiene y accesorios para perros y gatos en Colombia. Marcas con respaldo veterinario, precio claro por presentación y pago en línea.">
+<meta name="theme-color" content="#459c63">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GUPET">
+<meta property="og:title" content="GUPET — Alimento y cuidado para perros y gatos">
+<meta property="og:description" content="Tienda en línea de alimento, higiene y accesorios para perros y gatos en Colombia. Marcas con respaldo veterinario, precio claro por presentación y pago en línea.">
+<meta property="og:image" content="img/hero-puppy.jpg">
+<meta property="og:locale" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PetStore",
+  "name": "GUPET",
+  "description": "Tienda de alimento y cuidado para perros y gatos en Colombia.",
+  "image": "img/logo.png",
+  "telephone": "+573157454408",
+  "areaServed": "CO",
+  "priceRange": "$$"
+}
+</script>
 </head>
-<body>
+<body data-page="index">
 
-<header class="site-header">
-  <div class="container header-inner">
-    <a href="index.html" class="logo"><img src="img/logo.png" alt="GUPET"></a>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html" class="active">Inicio</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="servicios.html">Catálogo y servicios</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-    <div class="header-actions">
-      <a href="carrito.html" class="cart-link" aria-label="Carrito">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-        <span class="cart-badge">0</span>
-      </a>
-      <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
+<div data-site-header></div>
+
+<main id="main">
 
 <section class="hero">
   <div class="container hero-inner">
     <div>
       <span class="eyebrow">Tienda para mascotas · Colombia</span>
       <h1>Lo mejor para tu mejor amigo</h1>
-      <p class="lead">Alimento, higiene, juguetes y servicios de marcas premium como Royal Canin, Farmina N&amp;D y Churu — elegidos por gente que también tiene mascota en casa.</p>
+      <p class="lead">Alimento, higiene y accesorios de marcas con respaldo veterinario, elegidos uno por uno por gente que también tiene mascota en casa.</p>
       <div class="hero-actions">
-        <a href="servicios.html" class="btn btn-primary">Ver catálogo</a>
-        <a href="carrito.html" class="btn btn-outline">Ir al carrito</a>
+        <a href="catalogo.html" class="btn btn-primary">Ver catálogo</a>
+        <a href="consejos.html" class="btn btn-outline">Leer consejos</a>
       </div>
       <div class="hero-stats">
-        <div><strong>6+</strong><span>marcas premium</span></div>
-        <div><strong>Perros y gatos</strong><span>alimento y cuidado</span></div>
-        <div><strong>Pago en línea</strong><span>checkout simulado</span></div>
+        <div><strong>11</strong><span>marcas en catálogo</span></div>
+        <div><strong>24–48 h</strong><span>despacho hábil</span></div>
+        <div><strong>Gratis</strong><span>envío desde $150.000</span></div>
       </div>
     </div>
     <div class="hero-media">
-      <img src="img/hero-puppy.jpg" alt="Cachorro esperando su alimento GUPET">
-      <div class="hero-badge"><span class="dot"></span> Catálogo curado por categoría</div>
+      <img src="img/hero-puppy.jpg" alt="Cachorro esperando su alimento GUPET" width="720" height="420">
+      <div class="hero-badge"><span class="dot"></span> Precio real por presentación</div>
     </div>
   </div>
 </section>
 
-<div class="brands-strip">
+<div class="trust-strip">
   <div class="container">
-    <p>Marcas que trabajamos</p>
-    <div class="brands-row">
-      <span class="brand-chip">Monge</span>
-      <span class="brand-chip">Royal Canin</span>
-      <span class="brand-chip">Churu</span>
-      <span class="brand-chip">Evolve</span>
-      <span class="brand-chip">Nupec</span>
-      <span class="brand-chip">Orijen</span>
+    <div class="trust-grid">
+      <div class="trust-item"><span class="ti-icon">🚚</span><div><strong>Envío gratis desde $150.000</strong><span>Tarifa plana de $12.000 por debajo</span></div></div>
+      <div class="trust-item"><span class="ti-icon">💳</span><div><strong>Pago en línea</strong><span>Tarjeta o contra entrega</span></div></div>
+      <div class="trust-item"><span class="ti-icon">💬</span><div><strong>Asesoría antes de comprar</strong><span>Por WhatsApp, sin compromiso</span></div></div>
+      <div class="trust-item"><span class="ti-icon">🔄</span><div><strong>Cambios en 8 días</strong><span>Producto sellado y sin usar</span></div></div>
     </div>
   </div>
 </div>
 
-<section>
+<div class="brands-strip">
+  <div class="container">
+    <p>Marcas que trabajamos</p>
+    <div class="brands-row" data-marcas></div>
+  </div>
+</div>
+
+<section class="reveal">
   <div class="container">
     <div class="section-head">
       <span class="eyebrow">Categorías</span>
       <h2>Encuentra justo lo que buscas</h2>
-      <p>Cuatro categorías claras, sin perderte en un catálogo interminable.</p>
+      <p>Cuatro puertas de entrada en vez de un catálogo interminable.</p>
     </div>
-    <div class="category-grid">
-      <a class="category-card" href="servicios.html">
-        <img src="img/cat-guau.jpg" alt="Guau: alimento y cuidado para perros">
-        <div class="cat-label"><span>Alimento y cuidado para perros</span></div>
-      </a>
-      <a class="category-card" href="servicios.html">
-        <img src="img/cat-miau.jpg" alt="Miau: alimento y cuidado para gatos">
-        <div class="cat-label"><span>Alimento y cuidado para gatos</span></div>
-      </a>
-      <a class="category-card" href="servicios.html">
-        <img src="img/cat-petlovers.jpg" alt="Pet Lovers: accesorios y regalos">
-        <div class="cat-label"><span>Accesorios y regalos</span></div>
-      </a>
-      <a class="category-card" href="servicios.html">
-        <img src="img/cat-servicios.jpg" alt="Servicios: asesoría y cuidado extra">
-        <div class="cat-label"><span>Asesoría y cuidado extra</span></div>
-      </a>
-    </div>
+    <div class="category-grid" data-home-categorias></div>
   </div>
 </section>
 
-<section style="background: var(--white);">
+<section style="background: var(--white);" class="reveal">
   <div class="container">
     <div class="section-head">
       <span class="eyebrow">Destacados</span>
-      <h2>Elige presentación y mira el precio real</h2>
-      <p>En Churu, selecciona la caja: el precio se actualiza al instante, sin recargar la página.</p>
+      <h2>Elige la presentación y mira el precio real</h2>
+      <p>Cambia el tamaño de la caja o de la bolsa: el precio se ajusta al instante, sin recargar nada.</p>
     </div>
-    <div class="product-grid">
-
-      <div class="product-card">
-        <div class="product-media">
-          <img src="img/prod-churu.jpg" alt="Churu Tuna Seafood Variety">
-        </div>
-        <div class="product-body">
-          <span class="product-brand">Churu</span>
-          <h3>Tuna Seafood Variety</h3>
-          <div class="weight-select">
-            <button data-price="60187" data-old="62594" data-unit="Caja x 20 tubos" class="active">x20</button>
-            <button data-price="117062" data-old="121745" data-unit="Caja x 40 tubos">x40</button>
-            <button data-price="160125" data-old="166530" data-unit="Caja x 60 tubos">x60</button>
-          </div>
-          <div class="price-row">
-            <span class="price">$60.187</span>
-            <span class="price-old">$62.594</span>
-          </div>
-          <span class="price-unit">Caja x 20 tubos</span>
-          <button type="button" class="product-cta add-to-cart">Agregar al carrito</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-media">
-          <img src="img/prod-hills.jpg" alt="Hill's Prescription Diet Urinary Care C/D">
-        </div>
-        <div class="product-body">
-          <span class="product-brand">Hill's Prescription Diet</span>
-          <h3>Urinary Care C/D Multicare</h3>
-          <div class="price-row">
-            <span class="price">$113.710</span>
-            <span class="price-old">$123.600</span>
-          </div>
-          <span class="price-unit">Presentación única</span>
-          <button type="button" class="product-cta add-to-cart" data-price="113710" data-unit="Presentación única">Agregar al carrito</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-media">
-          <img src="img/prod-nd.jpg" alt="N&D Prime Feline Frango">
-        </div>
-        <div class="product-body">
-          <span class="product-brand">Farmina N&amp;D</span>
-          <h3>Prime Feline Frango Castrado</h3>
-          <div class="weight-select">
-            <button data-price="127553" data-unit="Presentación chica" class="active">Chica</button>
-            <button data-price="437344" data-unit="Presentación grande">Grande</button>
-          </div>
-          <div class="price-row">
-            <span class="price">$127.553</span>
-          </div>
-          <span class="price-unit">Presentación chica</span>
-          <button type="button" class="product-cta add-to-cart">Agregar al carrito</button>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div class="product-media">
-          <img src="img/prod-agility.jpg" alt="Agility Gold Pequeños Adultos">
-        </div>
-        <div class="product-body">
-          <span class="product-brand">Agility Gold</span>
-          <h3>Pequeños Adultos</h3>
-          <div class="weight-select">
-            <button data-price="38299" data-unit="Presentación chica" class="active">Chica</button>
-            <button data-price="159731" data-unit="Presentación grande">Grande</button>
-          </div>
-          <div class="price-row">
-            <span class="price">$38.299</span>
-          </div>
-          <span class="price-unit">Presentación chica</span>
-          <button type="button" class="product-cta add-to-cart">Agregar al carrito</button>
-        </div>
-      </div>
-
+    <div class="product-grid" data-home-products></div>
+    <div style="text-align:center; margin-top:38px;">
+      <a href="catalogo.html" class="btn btn-outline">Ver todo el catálogo</a>
     </div>
   </div>
 </section>
 
-<section>
+<section class="reveal">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Cómo funciona</span>
+      <h2>De la duda al pedido en cuatro pasos</h2>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card"><h3>Pregunta si dudas</h3><p>Cuéntanos edad, peso y tamaño de tu mascota y te decimos qué línea le sirve.</p></div>
+      <div class="step-card"><h3>Elige presentación</h3><p>Cada tamaño muestra su propio precio antes de que agregues nada al carrito.</p></div>
+      <div class="step-card"><h3>Paga en línea</h3><p>Tarjeta o contra entrega, en el mismo sitio y sin pasar a otro chat.</p></div>
+      <div class="step-card"><h3>Recíbelo en casa</h3><p>Despachamos en 24 a 48 horas hábiles y te avisamos cuando va en camino.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--white);" class="reveal">
   <div class="container">
     <div class="offer-banner">
       <div>
         <h3>10% off en Monge, Gattino y Gemon</h3>
-        <p>Válido por tiempo limitado, aplicado directo en el carrito. No acumulable con otras promociones.</p>
-        <a href="servicios.html" class="btn btn-light" style="margin-top:18px;">Aprovechar oferta</a>
+        <p>Usa el cupón <strong>GUPET10</strong> en el carrito. Por tiempo limitado y no acumulable con otras promociones.</p>
+        <a href="catalogo.html" class="btn btn-light" style="margin-top:18px;">Aprovechar oferta</a>
       </div>
       <div class="offer-pct">10%<span style="font-size:1.1rem; display:block; color:#eafff2; font-family:'Work Sans',sans-serif; font-weight:600;">OFF</span></div>
     </div>
   </div>
 </section>
 
-<section style="background: var(--white);">
+<section class="reveal">
   <div class="container">
-    <div class="cta-band">
-      <span class="eyebrow">¿Lista(o) para comprar?</span>
-      <h2>Paga en línea, sin salir del sitio</h2>
-      <p>Agrega tus productos al carrito y completa el pago en un checkout simple, en la misma página.</p>
-      <a href="servicios.html" class="btn btn-primary">Ver catálogo</a>
+    <div class="section-head">
+      <span class="eyebrow">Clientes</span>
+      <h2>Lo que dicen quienes ya compraron</h2>
+    </div>
+    <div class="reviews-grid" data-resenas></div>
+  </div>
+</section>
+
+<section style="background: var(--white);" class="reveal">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Consejos</span>
+      <h2>Antes de comprar, vale la pena leer esto</h2>
+      <p>Guías cortas sobre alimentación y cuidado, escritas para resolver dudas reales.</p>
+    </div>
+    <div class="posts-grid" data-home-posts></div>
+    <div style="text-align:center; margin-top:38px;">
+      <a href="consejos.html" class="btn btn-outline">Ver todos los consejos</a>
     </div>
   </div>
 </section>
 
-<footer class="site-footer">
+<section class="reveal">
   <div class="container">
-    <div class="footer-grid">
-      <div>
-        <a href="index.html" class="logo"><img src="img/logo-white.png" alt="GUPET"></a>
-        <p style="margin-top:14px; max-width:32ch; color:#d4ecdd;">Alimento, higiene, juguetes y servicios para perros y gatos, con marcas premium y asesoría real.</p>
-      </div>
-      <div>
-        <h4>Explorar</h4>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="servicios.html">Catálogo y servicios</a></li>
-          <li><a href="carrito.html">Carrito</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Soporte</h4>
-        <ul>
-          <li><a href="https://wa.me/573157454408" target="_blank" rel="noopener">WhatsApp: 315 745 4408</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 GUPET. Sitio de demostración.</span>
-      <span>Fotos: gupet.co</span>
+    <div class="cta-band">
+      <span class="eyebrow">Empieza aquí</span>
+      <h2>Arma tu pedido en un par de minutos</h2>
+      <p>Agrega al carrito, aplica tu cupón y paga sin salir del sitio.</p>
+      <a href="catalogo.html" class="btn btn-primary">Ver catálogo</a>
     </div>
   </div>
-</footer>
+</section>
+</main>
 
-<a href="https://wa.me/573157454408" class="wa-float" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
-  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.607 1.907 6.474L4 29l7.72-1.867A11.94 11.94 0 0 0 16.001 27C22.629 27 28 21.627 28 15S22.629 3 16.001 3Zm6.994 16.96c-.297.837-1.47 1.53-2.404 1.727-.638.135-1.47.242-4.273-.917-3.586-1.482-5.892-5.127-6.073-5.363-.174-.235-1.454-1.937-1.454-3.696 0-1.759.918-2.622 1.243-2.982.325-.36.71-.45.946-.45.236 0 .473.002.68.012.218.01.51-.083.798.61.297.71 1.007 2.469 1.095 2.65.089.18.148.393.03.628-.118.236-.178.383-.354.59-.177.207-.371.462-.53.62-.176.176-.36.368-.155.72.207.353.92 1.517 1.976 2.457 1.357 1.21 2.5 1.585 2.853 1.762.353.176.56.147.766-.089.207-.235.887-1.033 1.124-1.387.236-.353.472-.294.797-.176.324.117 2.062.973 2.416 1.15.353.177.588.265.677.412.089.147.089.85-.208 1.687Z"/></svg>
-</a>
+<div data-site-footer></div>
 
+<script src="data.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

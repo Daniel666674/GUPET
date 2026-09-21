@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tu carrito — GUPET</title>
-<meta name="description" content="Revisa los productos de tu pedido, ajusta cantidades, aplica cupón y continúa al pago.">
+<title>Preguntas frecuentes — GUPET</title>
+<meta name="description" content="Respuestas sobre presentaciones, pagos, envíos, dietas veterinarias y cambios de alimento en GUPET.">
 <meta name="theme-color" content="#459c63">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="GUPET">
-<meta property="og:title" content="Tu carrito — GUPET">
-<meta property="og:description" content="Revisa los productos de tu pedido, ajusta cantidades, aplica cupón y continúa al pago.">
+<meta property="og:title" content="Preguntas frecuentes — GUPET">
+<meta property="og:description" content="Respuestas sobre presentaciones, pagos, envíos, dietas veterinarias y cambios de alimento en GUPET.">
 <meta property="og:image" content="img/hero-puppy.jpg">
 <meta property="og:locale" content="es_CO">
 <meta name="twitter:card" content="summary_large_image">
@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
-<body data-page="carrito">
+<body data-page="faq">
 
 <div data-site-header></div>
 
@@ -27,33 +27,32 @@
 
 <div class="container">
   <nav class="breadcrumb" aria-label="Ruta">
-    <a href="index.html">Inicio</a> <span>/</span> <span aria-current="page">Carrito</span>
+    <a href="index.html">Inicio</a> <span>/</span> <span aria-current="page">Preguntas frecuentes</span>
   </nav>
 </div>
 
 <section class="page-hero" style="padding-top:34px;">
   <div class="container">
-    <span class="eyebrow">Carrito</span>
-    <h1>Tu carrito</h1>
-    <p>Revisa cantidades y presentaciones, aplica tu cupón y sigue al pago.</p>
+    <span class="eyebrow">Ayuda</span>
+    <h1>Preguntas frecuentes</h1>
+    <p>Lo que más nos preguntan sobre productos, pedidos y envíos.</p>
   </div>
 </section>
 
-<section style="padding-top:0;" data-cart-root>
+<section style="padding-top:0;">
   <div class="container">
+    <div class="faq-list" data-faq></div>
+  </div>
+</section>
 
-    <div class="cart-empty" data-cart-empty>
-      <div class="perk-icon">🛒</div>
-      <h2>Tu carrito está vacío</h2>
-      <p>Agrega productos desde el catálogo para armar tu pedido.</p>
-      <a href="catalogo.html" class="btn btn-primary">Ver catálogo</a>
+<section style="background: var(--white);">
+  <div class="container">
+    <div class="cta-band">
+      <span class="eyebrow">¿No está en la lista?</span>
+      <h2>Pregúntanos directo</h2>
+      <p>Si tu duda es sobre un caso puntual, cuéntanos y te respondemos con algo concreto.</p>
+      <a href="contacto.html" class="btn btn-primary">Ir a contacto</a>
     </div>
-
-    <div class="cart-layout">
-      <div data-cart-list></div>
-      <div class="cart-summary-card" data-cart-summary></div>
-    </div>
-
   </div>
 </section>
 </main>
