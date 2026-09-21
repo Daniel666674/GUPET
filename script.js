@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------------------------
-   GUPET — lógica del sitio
+   GUPET: lógica del sitio
    Todo corre en el navegador: no hay servidor, no se envía información a
    ningún lado y el carrito vive en el almacenamiento local del visitante.
 --------------------------------------------------------------------------- */
@@ -175,7 +175,7 @@ function buildChrome() {
       '<div class="container announce-inner">' +
         '<span>Envío gratis desde ' + formatCOP(SITE.envioGratisDesde) + '</span>' +
         '<span class="announce-sep" aria-hidden="true">·</span>' +
-        '<span>Cupón <strong>GUPET10</strong> — 10% off</span>' +
+        '<span>Cupón <strong>GUPET10</strong>: 10% off</span>' +
         '<span class="announce-sep" aria-hidden="true">·</span>' +
         '<a href="' + waLink('Hola GUPET, tengo una duda sobre un producto.') + '" target="_blank" rel="noopener">Asesoría por WhatsApp</a>' +
       '</div>' +
@@ -586,7 +586,7 @@ function renderProducto() {
   if (!root) return;
 
   var p = productoPorId(param('id')) || PRODUCTOS[0];
-  document.title = p.marca + ' ' + p.nombre + ' — GUPET';
+  document.title = p.marca + ' ' + p.nombre + ' | GUPET';
 
   var cat = categoriaPorId(p.cat);
   var crumbs = $('[data-breadcrumb]');
@@ -750,7 +750,7 @@ function renderBlog() {
   if (!art) return;
   var id = param('id');
   var post = POSTS.filter(function (p) { return p.id === id; })[0] || POSTS[0];
-  document.title = post.titulo + ' — GUPET';
+  document.title = post.titulo + ' | GUPET';
 
   var crumbs = $('[data-breadcrumb]');
   if (crumbs) {
@@ -1058,7 +1058,7 @@ function bindForms() {
       if (!cf.checkValidity()) { cf.reportValidity(); return; }
       var msg = $('[data-msg]', cf);
       msg.className = 'form-msg ok';
-      msg.textContent = 'Mensaje listo. En la demo no se envía a ningún servidor — en el sitio real llegaría al correo de GUPET.';
+      msg.textContent = 'Mensaje listo. En la demo no se envía a ningún servidor; en el sitio real llegaría al correo de GUPET.';
       cf.reset();
     });
   }

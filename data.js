@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------------------------
-   GUPET — datos del sitio
+   GUPET: datos del sitio
    Un solo lugar para el catálogo, las categorías, el blog y las preguntas
    frecuentes. Las páginas se arman desde aquí, así que un cambio de precio
    o un producto nuevo se toca una sola vez y aparece en todo el sitio.
@@ -236,7 +236,7 @@ var POSTS = [
     img: 'img/cat-miau.jpg',
     resumen: 'La tabla del empaque es un punto de partida, no una sentencia. Cómo ajustarla a tu mascota real.',
     cuerpo: [
-      'Toda bolsa trae una tabla de ración diaria según el peso. Esa tabla asume una mascota de actividad promedio, sin castrar y en peso ideal — tres supuestos que muchas veces no se cumplen.',
+      'Toda bolsa trae una tabla de ración diaria según el peso. Esa tabla asume una mascota de actividad promedio, sin castrar y en peso ideal: tres supuestos que muchas veces no se cumplen.',
       'Si tu mascota está castrada, su gasto de energía baja de forma notoria. En la práctica suele necesitar entre 10% y 20% menos de lo que indica la tabla para el mismo peso.',
       'Si pasa la mayor parte del día dentro de casa y sale poco, aplica un ajuste parecido. Si en cambio es un perro joven que camina una hora diaria, la tabla se queda corta.',
       'El mejor indicador no es el número: es tocar las costillas. Deberías sentirlas con una presión suave, sin tener que hundir los dedos, y ver una cintura marcada al mirar desde arriba. Ajusta la ración un 10% cada dos semanas hasta llegar ahí.',
@@ -252,7 +252,7 @@ var POSTS = [
     img: 'img/cat-petlovers.jpg',
     resumen: 'Los gatos beben poco por naturaleza. Cuando además comen solo alimento seco, vale la pena estar atento.',
     cuerpo: [
-      'El gato doméstico desciende de un animal de zonas áridas y conserva un impulso de sed bastante bajo. Cuando su dieta es únicamente alimento seco, la única fuente de agua es el bebedero — y muchos gatos no van lo suficiente.',
+      'El gato doméstico desciende de un animal de zonas áridas y conserva un impulso de sed bastante bajo. Cuando su dieta es únicamente alimento seco, la única fuente de agua es el bebedero, y muchos gatos no van lo suficiente.',
       'Señales a las que vale la pena prestar atención: orina muy concentrada y de olor fuerte, visitas menos frecuentes a la caja de arena, piel que tarda en volver a su sitio al levantarla suavemente sobre los hombros, letargo poco habitual y encías que se sienten pegajosas al tacto.',
       'Lo que sí funciona para que tomen más: varios bebederos en distintos puntos de la casa, lejos del plato de comida y de la caja de arena; recipientes anchos, porque a muchos gatos les molesta que los bigotes toquen los bordes; y agua fresca cambiada a diario.',
       'Las fuentes de agua en movimiento funcionan muy bien en gatos que no beben del plato. También ayuda incorporar algo de alimento húmedo o snacks cremosos, que aportan humedad además de calorías.',

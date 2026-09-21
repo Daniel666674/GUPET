@@ -1,4 +1,4 @@
-# GUPET — Demo de rediseño
+# GUPET: demo de rediseño
 
 Sitio de demostración estático (HTML + CSS + JavaScript, sin dependencias ni build)
 para mostrarle a GUPET (gupet.co) una propuesta de rediseño frente a su tienda
@@ -22,12 +22,12 @@ actual en WordPress/WooCommerce.
 
 **Contenido que una tienda real necesita**
 
-- `faq.html` — preguntas frecuentes en acordeón, con datos estructurados FAQPage.
-- `envios.html` — costos por monto, tiempos por zona, seguimiento, cambios y devoluciones.
-- `politicas.html` — tratamiento de datos, cookies, condiciones de compra y alcance de la demo.
-- `consejos.html` / `consejo.html?id=…` — tres guías de alimentación y cuidado.
-- `servicios.html` — asesoría, cálculo de ración, plan de cambio de alimento, pedido recurrente.
-- `404.html` — página de error con salida al catálogo.
+- `faq.html`: preguntas frecuentes en acordeón, con datos estructurados FAQPage.
+- `envios.html`: costos por monto, tiempos por zona, seguimiento, cambios y devoluciones.
+- `politicas.html`: tratamiento de datos, cookies, condiciones de compra y alcance de la demo.
+- `consejos.html` / `consejo.html?id=…`: tres guías de alimentación y cuidado.
+- `servicios.html`: asesoría, cálculo de ración, plan de cambio de alimento, pedido recurrente.
+- `404.html`: página de error con salida al catálogo.
 
 **Detalles de sitio profesional**
 
@@ -41,7 +41,7 @@ actual en WordPress/WooCommerce.
 ## Qué resuelve frente al sitio actual
 
 - **Precio que sí reacciona**: al cambiar la presentación (Churu 20/40/60 tubos,
-  bolsas chica/grande) el precio se actualiza al instante — el bug reportado.
+  bolsas chica/grande) el precio se actualiza al instante, que es el bug reportado.
 - **URLs limpias**: `catalogo.html`, `producto.html?id=churu-tuna-seafood-variety`,
   sin parámetros técnicos tipo `?srsltid=…`.
 - **Marca real, no genérica**: logo, verde de marca (#459c63), degradé teal→lima de
